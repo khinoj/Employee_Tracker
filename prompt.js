@@ -18,7 +18,7 @@ const validateInput = (input) => {
 };
 
 viewEmployees = () => {
-    db.query(`Select * from employee`, (err, result) => {
+    db.query(`SELECT employee.id, employee.first_name, employee.last_name, role.id, role.title, role.salary FROM employee JOIN role ON employee.role_id = role.id`, (err, result) => {
         if (err) {
             console.log(err);
         }

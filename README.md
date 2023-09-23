@@ -1,12 +1,20 @@
-# Employee_Tracker
+# Employee Management System
 
-## User Story
+  ## Table of Content
+  1. [User_Story](#user_story)
+  2. [Criteria](#criteria)
+  3. [Video](#video)
+  4. [Github](#github)
+  5. [License](#license)
+
+
+## User_Story
 
 - AS A business owner
 - I WANT to be able to view and manage the departments, roles, and employees in my company
 - SO THAT I can organize and plan my business
 
-## Acceptance Criteria
+## Criteria
 
 - GIVEN a command-line application that accepts user input
 - WHEN I start the application
@@ -25,3 +33,16 @@
 - THEN I am prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database
 - WHEN I choose to update an employee role
 - THEN I am prompted to select an employee to update and their new role and this information is updated in the database
+
+## Video
+
+- https://drive.google.com/file/d/1ochkwRbsRk5bpp1b93lFAGyucek-Nazj/view
+
+## Github
+
+- https://github.com/khinoj/Employee_Tracker
+
+
+## License
+
+- ![License: MIT License](https://img.shields.io/badge/License-MIT.0-red)
